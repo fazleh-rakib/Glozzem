@@ -12,6 +12,9 @@
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+        integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Boostrape Theam</title>
 </head>
@@ -171,6 +174,64 @@
         </div>
     </section>
 
+    <!-- photo gallery -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h1 class="text-center">Photo Gallery</h1>
+            <p class="text-center">Check Our Photos</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/560*560" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="560" data-width="560">
+                        <img src="https://source.unsplash.com/random/560*560" alt="" class="img-fluid">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/561*561" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="561" data-width="561">
+                        <img src="https://source.unsplash.com/random/561*561" alt="" class="img-fluid">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/562*562" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="562" data-width="562">
+                        <img src="https://source.unsplash.com/random/562*562" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/563*563" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="https://source.unsplash.com/random/563*563" alt="" class="img-fluid">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/564*564" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="564" data-width="564">
+                        <img src="https://source.unsplash.com/random/564*564" alt="" class="img-fluid">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/565*565" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img src="https://source.unsplash.com/random/565*565" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
     <!-- VIDEO MODAL -->
     <div class="modal fade" id="videomodal">
         <div class="modal-dialog">
@@ -196,6 +257,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+        integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         // get the current yr for copylights 
         $('#year').text(new Date().getFullYear());
