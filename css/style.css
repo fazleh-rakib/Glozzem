@@ -68,3 +68,18 @@ padding-top: 50px;
  .about-img{
     margin-top: -50px ;
  }
+ footer#main-footer{
+    background-color: black;
+   color: #fff;
+ }
+ #faq .card{
+    border: #444;
+ }
+ #faq a{
+    color : #fff
+    text-decoration: none;   
+ }
+ #faq .body-card,
+ #faq .card-header{
+    background: #333;
+ }
